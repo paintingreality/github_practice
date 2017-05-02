@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = 3000
 
-var cars = ['Mercedes', 'Honda', 'Toyota', 'Subaru']
+var cars = ['VW', 'Mercedes', 'Honda', 'Toyota', 'Subaru']
 
 app.get('/', function(req, res){
   var message = 'Welcome to my car make collection'
